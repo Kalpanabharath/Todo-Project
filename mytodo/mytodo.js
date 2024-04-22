@@ -1,13 +1,7 @@
 let container=document.getElementById("contdiv");
 let saveEl=document.getElementById("savebtn");
-
-
-
-
 let todo=finaltodo();
 // let todo=[]
-
-
 function finaltodo(){
     let getarr=localStorage.getItem("myarr")
     let getiten=JSON.parse(getarr)
